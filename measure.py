@@ -1,4 +1,6 @@
 # import the necessary packages
+pip install scipy
+
 from scipy.spatial import distance as dist
 from imutils import perspective
 from imutils import contours
