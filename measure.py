@@ -133,8 +133,8 @@ def process_image(image, width):
         return orig
     
 # Create a Streamlit app
-st.title("Object Size Measurement")
-st.write("Please drag and drop an image.")
+st.title("ToolAnamoly Detection by Kenny")
+st.write("Please drag and drop the test sample")
 
 # Accept a user-uploaded file
 uploaded_file = st.file_uploader("", type=["png", "jpg", "jpeg"])
