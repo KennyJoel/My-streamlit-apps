@@ -7,6 +7,7 @@ from tensorflow.keras.models import *
 import time
 import streamlit as st
 from PIL import Image
+
 import base64
 
 st.title("Tool Anomaly Detection")
